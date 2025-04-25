@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+ body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensures full viewport height */
+            margin: 0;
+            background-color: white; /* Optional background color for contrast */
+        }
+        .center-box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid black;
+            position: relative;
+            text-align: center;
+        }
+        .center-box p {
+            color: purple;
+            font-size: 16px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
